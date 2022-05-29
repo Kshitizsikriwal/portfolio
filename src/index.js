@@ -1,11 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './home';
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+
+import Navbar from "./components/header";
+import Home from "./components/home/index.";
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {
+      <div>
+        <Navbar />
+        <Home />
+      </div>
+    }
   </React.StrictMode>
 );
 

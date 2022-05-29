@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap");
+.main_nav {
+  background-color: #1d1d1f;
+  height: 4rem;
+  display: grid;
+  grid-template-columns: 2rem 5fr 3fr 2rem;
+}
+.menu_link {
+  grid-column: 2/3;
+}
+.signature {
+  display: grid;
+  grid-column: 3/4;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Baloo Tammudu 2", cursive;
+  color: #ebebeb;
+}
+.menu_link ul {
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu_link ul li {
+  list-style: none;
+  text-transform: capitalize;
+  font-family: "Baloo Tammudu 2", cursive;
+  font-size: 18px;
+}
+.main_nav ul li a {
+  padding: 0;
+  text-decoration: none;
+  color: #ebebeb;
+  position: relative;
+}
+.main_nav ul li a:hover {
+  color: #dbdbce;
+}
+/*  streach underline effect  */
+.main_nav ul li a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 12px;
+  background-color: #0071e3;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.menu_link ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.hamburger_menu {
+  display: none;
+}
+
+/* iphone view */
+@media (max-width: 430px) {
+  .main_nav {
+    height: 4rem;
+    display: grid;
+    grid-row: 5rem 1fr;
+    grid-template-columns: 1rem 5fr 2fr 1rem;
+  }
+  .menu_link {
+    display: none;
+  }
+  .menu_link_mobile {
+    background-color: #1d1d1f;
+    display: grid;
+    grid-row: 2/3;
+    width: 100vw;
+    z-index: 2;
+  }
+  .menu_link_mobile ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+  }
+  .menu_link_mobile ul li {
+    padding: 10px;
+    font-size: large;
+    color: #ebebeb;
+    font-family: "Baloo Tammudu 2", cursive;
+  }
+  .signature {
+    height: 4rem;
+    display: grid;
+    grid-column: 2/3;
+    align-items: center;
+    justify-content: start;
+  }
+  .hamburger_menu {
+    height: 4rem;
+    display: grid;
+    grid-column: 3/4;
+    align-items: center;
+    justify-content: space-around;
+    color: #ebebeb;
+  }
+}
