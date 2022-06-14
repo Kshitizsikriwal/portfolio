@@ -4,6 +4,8 @@
   height: 4rem;
   display: grid;
   grid-template-columns: 2rem 5fr 3fr 2rem;
+  position: fixed;
+  width: 100%;
 }
 .menu_link {
   grid-column: 2/3;
@@ -59,6 +61,7 @@
 .hamburger_menu {
   display: none;
 }
+
 
 /* iphone view */
 @media (max-width: 500px) {

@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: row;
   background: #fafafa;
+  height: 90vh;
 }
 .greeting_name {
   width: 60%;
-  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -38,7 +38,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 100%;
   width: 40%;
 }
 .profile_image img {
@@ -48,6 +48,9 @@
 }
 /*ipad view*/
 @media (max-width: 870px) and (min-width: 500px) {
+  .main_body {
+    height: 60vh;
+  }
   .greeting_name {
     margin-left: 4rem;
   }
@@ -68,6 +71,7 @@
   .main_body {
     display: flex;
     flex-direction: column;
+    height: 110vh;
   }
   .greeting_name {
     display: flex;

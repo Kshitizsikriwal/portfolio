@@ -9,7 +9,7 @@ import dp from "../../assets/images/profilepic.jpg";
 const Home = () => {
   return (
     <>
-      <div className="main_body">
+      <div className="main_body" id="home">
         <div className="greeting_name">
           <h1>
             Hi, I'm <br />
@@ -19,13 +19,19 @@ const Home = () => {
             <TypingEffet />
           </p>
           <div className="contact_icons">
-            <img src={linkedin_icon} alt="linked" />
-            <img src={github_icon} alt="github" />
-            <img src={mail_icon} alt="mail" />
+            <a href="https://linkedin.com/in/divyanshuan">
+              <img src={linkedin_icon} alt="linked" />
+            </a>
+            <a href="https://github.com/divyanshuan">
+              <img src={github_icon} alt="github" />
+            </a>
+            <a href="mailto:divyanshuvermaji@gmail.com">
+              <img src={mail_icon} alt="mail" />
+            </a>
           </div>
         </div>
         <div className="profile_image">
-            <img src={dp} alt="dibu" />
+          <img src={dp} alt="dibu" />
         </div>
       </div>
     </>

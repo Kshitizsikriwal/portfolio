@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import "./header.css";
+
 const Navbar = () => {
   const [showham, setShowham] = useState(false);
-  return (
+  return (  
     <>
       <nav className="main_nav">
         <div className={showham ? "menu_link_mobile" : "menu_link"}>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#">Skills</a>
+              <a href="#skill">Skills</a>
             </li>
             <li>
               <a href="#">Project</a>
