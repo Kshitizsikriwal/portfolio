@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import Navbar from "./components/header";
 import Home from "./components/home/index.js";
 import Skill from "./components/skills";
+import Project from "./components/project";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -13,6 +15,7 @@ root.render(
         <Navbar />
         <Home />
         <Skill />
+        <Project />
       </div>
     }
   </React.StrictMode>

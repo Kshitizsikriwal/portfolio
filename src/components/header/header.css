@@ -6,6 +6,7 @@
   grid-template-columns: 2rem 5fr 3fr 2rem;
   position: fixed;
   width: 100%;
+  z-index: 10;
 }
 .menu_link {
   grid-column: 2/3;
@@ -62,7 +63,6 @@
   display: none;
 }
 
-
 /* iphone view */
 @media (max-width: 500px) {
   .main_nav {
@@ -91,6 +91,7 @@
     font-size: large;
     color: #ebebeb;
     font-family: "Baloo Tammudu 2", cursive;
+    list-style: none;
   }
   .signature {
     height: 4rem;

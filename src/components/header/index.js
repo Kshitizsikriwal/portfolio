@@ -4,7 +4,7 @@ import "./header.css";
 
 const Navbar = () => {
   const [showham, setShowham] = useState(false);
-  return (  
+  return (
     <>
       <nav className="main_nav">
         <div className={showham ? "menu_link_mobile" : "menu_link"}>
@@ -16,13 +16,13 @@ const Navbar = () => {
               <a href="#skill">Skills</a>
             </li>
             <li>
-              <a href="#">Project</a>
+              <a href="#project">Project</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#">Experience</a>
-            </li>
+            </li> */}
             <li>
-              <a href="#">About</a>
+              <a href="#about">About</a>
             </li>
           </ul>
         </div>

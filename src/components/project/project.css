@@ -1,0 +1,135 @@
+.project_main {
+  margin: 2rem 3rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.projectimage {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 2;
+}
+.projectimage img {
+  width: 70%;
+}
+.projectimage h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.project_desc {
+  width: 50%;
+  order: 1;
+}
+.project_desc a {
+  text-decoration: none;
+  color: black;
+}
+.project_desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.master-card {
+  height: 320px;
+  width: 250px;
+  border: 1px solid rgb(141, 138, 138);
+  box-shadow: 0px 0px 10px rgb(141, 138, 138);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.proj_head {
+  margin: 5px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.proj_head p {
+  width: 100%;
+  font-size: 22px;
+  margin: 5px 3px 5px;
+}
+.proj_desc {
+  margin: 10px 5px 10px;
+  height: 70%;
+  overflow-y: hidden;
+  border-top: 1px solid #0275d8;
+}
+.proj_buttons {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* ipad view  */
+
+@media (max-width: 830px) and (min-width: 500px) {
+  .project_main {
+    margin: 1rem;
+    flex-direction: column;
+    height: auto;
+  }
+  .projectimage {
+    border: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+  }
+  .project_desc {
+    display: flex;
+    order: 2;
+    width: 100%;
+  }
+  .projectimage img {
+    display: none;
+  }
+  .projectimage h1 {
+    margin: 2rem;
+    width: 100%;
+  }
+}
+/* iphone view  */
+@media (max-width: 500px) and (min-width: 0px) {
+  .project_main {
+    margin: 1rem;
+    flex-direction: column;
+    height: auto;
+  }
+  .projectimage {
+    border: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+  }
+  .project_desc {
+    display: flex;
+    order: 2;
+    width: 100%;
+  }
+  .projectimage img {
+    display: none;
+  }
+  .projectimage h1 {
+    margin: 2rem;
+    width: 100%;
+  }
+}
