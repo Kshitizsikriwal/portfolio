@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 .project_main {
-  margin: 2rem 3rem;
+  background-color: #fafafa;
+  margin: 3rem 3rem;
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -60,12 +62,19 @@
   width: 100%;
   font-size: 22px;
   margin: 5px 3px 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
 }
 .proj_desc {
   margin: 10px 5px 10px;
   height: 70%;
   overflow-y: hidden;
   border-top: 1px solid #0275d8;
+}
+.proj_desc p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #413f42;
 }
 .proj_buttons {
   margin-bottom: 5px;

@@ -11,13 +11,20 @@
 .menu_link {
   grid-column: 2/3;
 }
-.signature {
+
+.resume {
+  padding-bottom: 15px;
   display: grid;
   grid-column: 3/4;
   justify-content: flex-end;
   align-items: center;
   font-family: "Baloo Tammudu 2", cursive;
-  color: #ebebeb;
+}
+.resume-btn {
+  font-size: 22px;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
 }
 .menu_link ul {
   height: 4rem;
@@ -93,7 +100,7 @@
     font-family: "Baloo Tammudu 2", cursive;
     list-style: none;
   }
-  .signature {
+  .resume {
     height: 4rem;
     display: grid;
     grid-column: 2/3;

@@ -15,9 +15,12 @@ const Home = () => {
             Hi, I'm <br />
             Divyanshu Verma
           </h1>
-          <p>
-            <TypingEffet />
-          </p>
+          <div className="typingeffect">
+          
+            <p>
+              <TypingEffet />
+            </p>
+          </div>
           <div className="contact_icons">
             <a href="https://linkedin.com/in/divyanshuan">
               <img src={linkedin_icon} alt="linked" />

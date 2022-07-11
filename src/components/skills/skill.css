@@ -99,7 +99,7 @@
 /* iphone view  */
 @media (max-width: 500px) and (min-width: 0px) {
   .main_skill_body {
-    margin: 1rem;
+    margin: 3rem 1rem;
     flex-direction: column;
     height: auto;
   }

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import "./header.css";
+import { Button } from "react-bootstrap";
+import resume from "../../assets/pdf/Divyanshu_verma.pdf";
 
 const Navbar = () => {
   const [showham, setShowham] = useState(false);
@@ -26,8 +28,13 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="signature">
-          <h1>hello</h1>
+        <div className="resume">
+          <a href={resume} download={resume}>
+            <Button variant="primary" className="resume-btn">
+              resume
+            </Button>
+          </a>
+          {/* <p>resume</p> */}
         </div>
         {/* hamburger menu starts */}
         <div className="hamburger_menu">
