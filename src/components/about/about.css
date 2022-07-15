@@ -1,0 +1,17 @@
+.main_about_body {
+  margin: 2rem 6rem;
+  height: 70vh;
+  display: flex;
+  /* border: 1px solid red; */
+}
+.about_text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  /* border: 1px solid red; */
+}
+.about_img {
+  width: 30%;
+  /* border: 1px solid blue; */
+}

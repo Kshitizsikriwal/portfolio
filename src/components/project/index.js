@@ -7,7 +7,7 @@ import { RiGitRepositoryLine } from "@react-icons/all-files/ri/RiGitRepositoryLi
 const Project = () => {
   return (
     <>
-      <div className="project_main" id="project">
+      <div className="project_main" id="project"> 
         <div className="project_desc">
           {projdata.projectdetail.map((detail) => (
             <>
