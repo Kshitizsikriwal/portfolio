@@ -101,6 +101,7 @@
     list-style: none;
   }
   .resume {
+    padding-top: 10px;
     height: 4rem;
     display: grid;
     grid-column: 2/3;
