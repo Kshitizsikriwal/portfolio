@@ -77,10 +77,12 @@
   color: #413f42;
 }
 .proj_buttons {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10px;
+  /* justify-content: space-around; */
 }
 
 /* ipad view  */

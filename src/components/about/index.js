@@ -9,11 +9,11 @@ const About = () => {
   return (
     <div className="main_about_body" id="about">
       <div className="about_text">
-        {aboutsec.aboutme.map((detail) => (
-          <>
+        {aboutsec.aboutme.map((detail, keyy) => (
+          <div key={keyy}>
             <h1>About me</h1>
-            <p>{detail.line}</p>
-          </>
+            <div className="para">{detail.line}</div>
+          </div>
         ))}
       </div>
       <div className="about_img ">

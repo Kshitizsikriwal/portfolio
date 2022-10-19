@@ -15,9 +15,9 @@ const Home = () => {
             Divyanshu Verma
           </h1>
           <div className="typingeffect">
-            <p>
+            <div className="typo">
               <TypingEffet />
-            </p>
+            </div>
           </div>
           <div className="contact_icons">
             <a href="https://linkedin.com/in/divyanshuan">

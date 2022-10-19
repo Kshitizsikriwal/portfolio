@@ -17,7 +17,7 @@
 .about_text h1 {
   font-size: 60px;
 }
-.about_text p {
+.about_text .para {
   font-size: 22px;
   text-align: justify;
 }

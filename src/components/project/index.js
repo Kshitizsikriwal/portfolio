@@ -3,15 +3,17 @@ import "./project.css";
 import projdata from "../../data/projectdetail.json";
 import { Button } from "react-bootstrap";
 import { RiGitRepositoryLine } from "@react-icons/all-files/ri/RiGitRepositoryLine";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import IconButton from "@mui/material/IconButton";
 
 const Project = () => {
   return (
     <>
       <div className="project_main" id="project">
         <div className="project_desc">
-          {projdata.projectdetail.map((detail) => (
-            <>
-              <a href={detail.githublink}>
+          {projdata.projectdetail.map((detail, key1) => (
+            <div key={key1}>
+              <div>
                 <div className="master-card">
                   <div className="proj_head">
                     <p>
@@ -24,13 +26,18 @@ const Project = () => {
                     <p>{detail.description}</p>
                   </div>
                   <div className="proj_buttons">
+                    <a href={detail.githublink}>
+                      <IconButton variant="primary">
+                        <GitHubIcon />
+                      </IconButton>
+                    </a>
                     <a href={detail.liveprojectlink}>
                       <Button variant="primary">View project</Button>
                     </a>
                   </div>
                 </div>
-              </a>
-            </>
+              </div>
+            </div>
           ))}
         </div>
         <div className="projectimage">
