@@ -1,0 +1,60 @@
+.btnchat {
+  z-index: 20;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 1rem;
+  background: transparent;
+  border: none;
+}
+.btnchatcross {
+  background: transparent;
+  border: none;
+}
+.chathead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #fff;
+}
+.chathead button {
+  color: #fff;
+}
+.chatform {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0 1rem 4.5rem 0;
+  background-color: #000;
+  width: 20rem;
+  height: 25rem;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+.cont_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.cont_form input,
+textarea {
+  border-radius: 6px;
+  width: 90%;
+  padding: 2px;
+}
+
+/* iphone view */
+@media (max-width: 500px) {
+  .chatform {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0 0.5rem 4rem 0;
+    background-color: #000;
+    width: 18rem;
+    height: 25rem;
+    border-radius: 10px;
+    padding-top: 20px;
+  }
+}
