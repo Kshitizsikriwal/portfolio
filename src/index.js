@@ -8,6 +8,7 @@ import Home from "./components/home/index.js";
 import Skill from "./components/skills";
 import Project from "./components/project";
 import About from "./components/about";
+import Chatinetface from "./components/chat/chatbtn";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ root.render(
         <Skill />
         <Project />
         <About />
+        <Chatinetface />
       </div>
     }
   </React.StrictMode>

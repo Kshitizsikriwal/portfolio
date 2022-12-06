@@ -5,7 +5,7 @@ import chatlogo from "../../assets/images/chaticon.png";
 import "./chat.css";
 
 const Chatinetface = () => {
-  const [showchat, setShowchat] = useState(true);
+  const [showchat, setShowchat] = useState(false);
   const [data, setData] = useState({ sendername: "", mail: "", message: "" });
   const handlechage = (e) => {
     const name = e.target.name;
@@ -15,6 +15,7 @@ const Chatinetface = () => {
   const handlesubmit = (e) => {
     e.preventDefault();
     console.log(data);
+    setData({ sendername: "", mail: "", message: "" });
   };
   return (
     <>
@@ -54,7 +55,9 @@ const Chatinetface = () => {
                 onChange={handlechage}
                 value={data.message}
               ></textarea>
-              <button onClick={handlesubmit}>Send</button>
+              <button onClick={handlesubmit} className="submitbtn">
+                Send
+              </button>
             </form>
           </div>
         </div>

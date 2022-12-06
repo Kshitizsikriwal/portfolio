@@ -43,6 +43,15 @@ textarea {
   width: 90%;
   padding: 2px;
 }
+.submitbtn,
+.submitbtn:focus {
+  background-color: #0071e3;
+  color: #fff;
+  border: 1px solid #000;
+  width: 4.5rem;
+  height: 1.8rem;
+  border-radius: 10px;
+}
 
 /* iphone view */
 @media (max-width: 500px) {
