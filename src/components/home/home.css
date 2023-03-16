@@ -113,3 +113,17 @@
     height: 250px;
   }
 }
+
+.left-element {
+  transform: translateX(-200px);
+  opacity: 0;
+}
+.right-element {
+  transform: translateX(200px);
+  opacity: 0;
+}
+.i-am-visible {
+  transform: translateX(0px);
+  opacity: 1;
+  transition: 2s;
+}

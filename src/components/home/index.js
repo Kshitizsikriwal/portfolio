@@ -2,14 +2,20 @@ import React from "react";
 import "../home/home.css";
 import TypingEffet from "../common/typewriter.js";
 import Avatar from "@mui/material/Avatar";
-
 import dp from "../../assets/images/profilepic.jpg";
+import { useInView } from "react-intersection-observer";
 
 const Home = () => {
+  const { ref: myRef, inView: isMyElementInView } = useInView();
+
   return (
     <>
-      <div className="main_body" id="home">
-        <div className="greeting_name">
+      <div className="main_body" ref={myRef} id="home">
+        <div
+          className={`greeting_name  ${
+            isMyElementInView ? "i-am-visible" : "left-element"
+          }`}
+        >
           <h1>
             Hi, I'm <br />
             Divyanshu Verma
@@ -77,7 +83,12 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="profile_image">
+
+        <div
+          className={`profile_image ${
+            isMyElementInView ? "i-am-visible" : "right-element"
+          }`}
+        >
           <img src={dp} alt="dibu" />
         </div>
       </div>

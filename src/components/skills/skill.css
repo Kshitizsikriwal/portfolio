@@ -142,3 +142,56 @@
     justify-content: center;
   }
 }
+/* animaion  */
+.me_visible {
+  transition: 2s all ease-in-out;
+  opacity: 1;
+}
+.sklimg {
+  opacity: 0;
+}
+.logohide {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.me_visible_logo1 {
+  transition: 1s all ease-in-out;
+  transform: translateY(0px);
+  opacity: 1;
+}
+.me_visible_logo2 {
+  transition: 1.5s all ease-in-out;
+  transform: translateY(0px);
+  opacity: 1;
+}
+.me_visible_logo3 {
+  transition: 2s all ease-in-out;
+  transform: translateY(0px);
+  opacity: 1;
+}
+.me_visible_logo4 {
+  transition: 2.5s all ease-in-out;
+  transform: translateY(0px);
+  opacity: 1;
+}
+.me_visible_logo5 {
+  transition: 3s all ease-in-out;
+  transform: translateY(0px);
+  opacity: 1;
+}
+.me_visible_logo6 {
+  transition: 3.5s all ease-in-out;
+  transform: translateY(0px);
+  opacity: 1;
+}
+.me_visible_logo7 {
+  transition: 4s all ease-in-out;
+  transform: translateY(0px);
+  opacity: 1;
+}
+.me_visible_logo8 {
+  transition: 4.5s all ease-in-out;
+  transform: translateY(0px);
+  opacity: 1;
+}

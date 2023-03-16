@@ -43,10 +43,11 @@
   gap: 20px;
 }
 .master-card {
+  background-color: #fff;
   height: 320px;
   width: 250px;
-  border: 1px solid rgb(141, 138, 138);
-  box-shadow: 0px 0px 10px rgb(141, 138, 138);
+  border: 1px solid rgba(141, 138, 138, 0.652);
+  box-shadow: 0px 0px 5px rgb(141, 138, 138);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -146,4 +147,29 @@
     margin: 2rem;
     width: 100%;
   }
+}
+
+.cardstart {
+  transform: translateX(-200px);
+  opacity: 0;
+}
+.cardvisible0 {
+  transform: translateX(0px);
+  opacity: 1;
+  transition: 2.5s;
+}
+.cardvisible1 {
+  transform: translateX(0px);
+  opacity: 1;
+  transition: 2s;
+}
+.cardvisible2 {
+  transform: translateX(0px);
+  opacity: 1;
+  transition: 2.5s;
+}
+.cardvisible3 {
+  transition: 2s;
+  transform: translateX(0px);
+  opacity: 1;
 }

@@ -5,16 +5,24 @@ import { Button } from "react-bootstrap";
 import { RiGitRepositoryLine } from "@react-icons/all-files/ri/RiGitRepositoryLine";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import IconButton from "@mui/material/IconButton";
+import projectimage from "../../assets/images/projects.svg";
+import { useInView } from "react-intersection-observer";
 
 const Project = () => {
+  const { ref: myRef, inView: isMyElementInView } = useInView();
   return (
     <>
       <div className="project_main" id="project">
-        <div className="project_desc">
+        <div className="project_desc" ref={myRef}>
           {projdata.projectdetail.map((detail, key1) => (
             <div key={key1}>
               <div>
-                <div className="master-card">
+                <div
+                  // className="matercard"
+                  className={`master-card ${
+                    isMyElementInView ? `cardvisible${key1}` : "cardstart"
+                  }`}
+                >
                   <div className="proj_head">
                     <p>
                       <RiGitRepositoryLine />
@@ -42,10 +50,7 @@ const Project = () => {
         </div>
         <div className="projectimage">
           <h1>Project</h1>
-          <img
-            src="http://abhishek-rao-portfolio.herokuapp.com/_next/image?url=%2Fprojects.svg&w=1200&q=75"
-            alt=" Project"
-          />
+          <img src={projectimage} alt=" Project" />
         </div>
       </div>
     </>
