@@ -20,7 +20,7 @@ root.render(
         <Skill />
         <Project />
         <About />
-        <Chatinetface />
+        {/* <Chatinetface /> */}
       </div>
     }
   </React.StrictMode>
