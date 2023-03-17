@@ -3,6 +3,7 @@
   flex-direction: row;
   background: #fafafa;
   height: 100vh;
+  overflow: hidden;
 }
 .greeting_name {
   width: 60%;
