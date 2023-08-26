@@ -10,6 +10,7 @@ import About from "./components/about";
 // import Chatinetface from "./components/chat/chatbtn";
 import "animate.css/animate.min.css";
 import "aos/dist/aos.css";
+import Experience from "./components/experience";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -19,8 +20,8 @@ root.render(
         <Home />
         <Skill />
         <Project />
+        <Experience />
         <About />
-        {/* <Chatinetface /> */}
       </div>
     }
   </React.StrictMode>

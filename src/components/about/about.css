@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-
+.main_abot {
+  width: 100%;
+  background-color: #fafafa;
+}
 .main_about_body {
   margin: 2rem 10rem;
   height: 90vh;
   display: flex;
-  /* border: 1px solid red; */
 }
 .about_text {
   order: 1;
@@ -63,11 +65,10 @@
 }
 @media (max-width: 500px) and (min-width: 0px) {
   .main_about_body {
-    margin: 2rem 1rem;
+    margin: 3rem 1rem;
     height: 90vh;
     display: flex;
     flex-direction: column;
-    /* border: 1px solid red; */
   }
   .about_text {
     width: 100%;

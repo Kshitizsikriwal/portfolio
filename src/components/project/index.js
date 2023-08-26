@@ -18,7 +18,6 @@ const Project = () => {
             <div key={key1}>
               <div>
                 <div
-                  // className="matercard"
                   className={`master-card ${
                     isMyElementInView ? `cardvisible${key1}` : "cardstart"
                   }`}
@@ -48,7 +47,9 @@ const Project = () => {
             </div>
           ))}
         </div>
-        <div className="projectimage">
+        <div className={`projectimage ${
+            isMyElementInView ? "i-am-visible" : "right-element"
+          }`}>
           <h1>Project</h1>
           <img src={projectimage} alt=" Project" />
         </div>
