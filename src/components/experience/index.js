@@ -35,7 +35,7 @@ const Experience = () => {
                     </div>
                     <hr />
                     <div className="ag-courses-item_date-box">
-                      <b>Duration:</b> {value.date}
+                      <b>Duration:</b> {value.duration}
                     </div>
                   </a>
                 </div>

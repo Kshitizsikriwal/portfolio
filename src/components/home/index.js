@@ -2,7 +2,7 @@ import React from "react";
 import "../home/home.css";
 import TypingEffet from "../common/typewriter.js";
 import Avatar from "@mui/material/Avatar";
-import dp from "../../assets/images/profilepic.jpg";
+import dp from "../../assets/images/divyanshu verma.jpg";
 import { useInView } from "react-intersection-observer";
 
 const Home = () => {
@@ -89,7 +89,7 @@ const Home = () => {
             isMyElementInView ? "i-am-visible" : "right-element"
           }`}
         >
-          <img src={dp} alt="dibu" />
+          <img src={dp} alt="Divyanshu Verma" />
         </div>
       </div>
     </>

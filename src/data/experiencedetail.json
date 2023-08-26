@@ -1,16 +1,9 @@
 {
   "experiencedetail": [
     {
-      "heading": "Cuh Placement Cell",
-      "description": "This is a Full Stack WebApp. It includes React, Redux, React-Bootstrap, Material UI, Django. In this project new opportunity is posted by co-ordinator for the students. ",
-      "githublink": "https://github.com/divyanshuan/cuh-placement-cell",
-      "duration": ""
-    },
-    {
-      "heading": "Cuh Placement Cell",
-      "description": "This is a ",
-      "githublink": "https://github.com/divyanshuan/cuh-placement-cell",
-      "duration": ""
+      "heading": "Sirom Pvt. Ltd. - Pune",
+      "description": "TECH STACK - LARAVEL , PHP , JAVASCRIPT , SQL , HTML  ",
+      "duration": " 2 months (04/23 - 07/23)"
     }
   ]
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import aboutsec from "../../data/aboutme.json";
 
-import profilepic from "../../assets/images/profilepica.JPG";
+import profilepic from "../../assets/images/divyanshu verma.jpg";
 import Avatar from "@mui/material/Avatar";
 
 const About = () => {
@@ -18,7 +18,7 @@ const About = () => {
           ))}
         </div>
         <div className="about_img ">
-          <img src={profilepic} alt="dibu" height={290} />
+          <img src={profilepic} alt="Divyanshu Verma" height={290} />
           <div className="social_section">
             <a href="https://instagram.com/divyanshuanandverma?r=nametag">
               <Avatar
