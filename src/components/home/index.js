@@ -2,7 +2,8 @@ import React from "react";
 import "../home/home.css";
 import TypingEffet from "../common/typewriter.js";
 import Avatar from "@mui/material/Avatar";
-import dp from "../../assets/images/divyanshu verma.jpg";
+import dp from "../../assets/images/Kshitiz Sikriwal.jpg";
+
 import { useInView } from "react-intersection-observer";
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
         >
           <h1>
             Hi, I'm <br />
-            Divyanshu Verma
+            Kshitiz Sikriwal
           </h1>
           <div className="typingeffect">
             <div className="typo">
@@ -26,7 +27,7 @@ const Home = () => {
             </div>
           </div>
           <div className="contact_icons">
-            <a href="https://linkedin.com/in/divyanshuan">
+            <a href="https://www.linkedin.com/in/kshitiz-sikriwal-1a7973266/">
               <Avatar
                 variant="rounded"
                 sx={{ bgcolor: "#0072b1", width: 60, height: 60 }}
@@ -44,7 +45,7 @@ const Home = () => {
                 </svg>
               </Avatar>
             </a>
-            <a href="https://github.com/divyanshuan">
+            <a href="https://github.com/kshitizsikriwal">
               <Avatar
                 variant="rounded"
                 sx={{ bgcolor: "#000", width: 60, height: 60 }}
@@ -62,7 +63,7 @@ const Home = () => {
                 </svg>
               </Avatar>
             </a>
-            <a href="mailto:divyanshuvermaji@gmail.com">
+            <a href="mailto:kshitizsikriwalwrite@gmail.com">
               <Avatar
                 variant="rounded"
                 sx={{ bgcolor: "#bc4034", width: 60, height: 60 }}
@@ -89,7 +90,7 @@ const Home = () => {
             isMyElementInView ? "i-am-visible" : "right-element"
           }`}
         >
-          <img src={dp} alt="Divyanshu Verma" />
+          <img src={dp} alt="Kshitiz Sikriwal" />
         </div>
       </div>
     </>

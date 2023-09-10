@@ -19,7 +19,7 @@ root.render(
         <Navbar />
         <Home />
         <Skill />
-        <Project />
+        {/* <Project /> */}
         <Experience />
         <About />
       </div>

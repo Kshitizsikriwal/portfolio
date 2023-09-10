@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import aboutsec from "../../data/aboutme.json";
 
-import profilepic from "../../assets/images/divyanshu verma.jpg";
+import profilepic from "../../assets/images/Kshitiz Sikriwal.jpg";
 import Avatar from "@mui/material/Avatar";
 
 const About = () => {
@@ -20,7 +20,7 @@ const About = () => {
         <div className="about_img ">
           <img src={profilepic} alt="Divyanshu Verma" height={290} />
           <div className="social_section">
-            <a href="https://instagram.com/divyanshuanandverma?r=nametag">
+            <a href="https://instagram.com/jackofpoets?r=nametag">
               <Avatar
                 variant="rounded"
                 sx={{ bgcolor: "#dd2a7b", width: 60, height: 60 }}
@@ -38,7 +38,7 @@ const About = () => {
                 </svg>
               </Avatar>
             </a>
-            <a href="https://www.facebook.com/divyanshu.anandverma">
+            <a href="https://www.facebook.com/profile.php?id=61551017163887">
               <Avatar
                 variant="rounded"
                 sx={{ bgcolor: "#4267B2", width: 60, height: 60 }}

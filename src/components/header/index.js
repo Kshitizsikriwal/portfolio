@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import "./header.css";
 import { Button } from "react-bootstrap";
-import resume from "../../assets/pdf/Divyanshu_verma.pdf";
+import resume from "../../assets/pdf/Kshitiz's Resume.pdf";
 
 const Navbar = () => {
   const [showham, setShowham] = useState(false);

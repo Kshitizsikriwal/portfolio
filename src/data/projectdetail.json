@@ -1,28 +1,16 @@
 {
   "projectdetail": [
     {
-      "heading": "Cuh Placement Cell",
-      "description": "This is a Full Stack WebApp. It includes React, Redux, React-Bootstrap, Material UI, Django. In this project new opportunity is posted by co-ordinator for the students. ",
-      "githublink": "https://github.com/divyanshuan/cuh-placement-cell",
-      "liveprojectlink": ""
+      
     },
     {
-      "heading": "International conference",
-      "description": " website for 1st International Conference on Smart and Sustainable Technologies in Energy and Power Systems organised by department of Electrical Engineering (CUH).",
-      "githublink": "",
-      "liveprojectlink": "https://ssteps-cuh-2022.web.app/"
+      
     },
     {
-      "heading": "guess the number",
-      "description": "This is a simple game made with HTML, CSS and Javascript. simple webpage with intrective gaming   ",
-      "githublink": "",
-      "liveprojectlink": "https://divyanshuan.github.io/Guess-the-number/"
+     
     },
     {
-      "heading": "The Pig Game",
-      "description": "This is version 2  of famous simple game made with HTML, CSS and Javascript.",
-      "githublink": "",
-      "liveprojectlink": "https://the-pig-game-new.netlify.app/"
+      
     }
   ]
 }
