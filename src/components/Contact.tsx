@@ -43,7 +43,7 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_gbopqrn", // ✅ your service ID
-        "template_utq0dj", // ✅ your template ID
+        "template_3qtdnd8", // ✅ your template ID
         e.currentTarget,
         "GAVgvcI6zjQZ0GiTR" // ✅ your public key
       )
